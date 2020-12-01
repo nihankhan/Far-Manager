@@ -1,5 +1,5 @@
+
+
+
 <Expand Name="Template: test" At="&AnyWhere;" SubMenu="1" To="\i'$\templates\source\test.cpp'"/>
-
-Also, the template itself should be in UTF-16 little-endian encoding by default, which may not be your default for other uses.
-
 
