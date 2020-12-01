@@ -12,6 +12,6 @@ Step-3 : Go to the Template/source file then you found a file like true-source-c
   
 Step-4 : template/source folder you found a file name Blank.c now edit this what you want to see your pre-typed code and save this file and reload the Far Manager.
 
-step-5 : Now chil 
+step-5 : Now enjoy :)
 
 Assalamualaikum................................>>>
