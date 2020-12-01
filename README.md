@@ -14,4 +14,8 @@ Step-4 : template/source folder you found a file name Blank.c now edit this what
 
 step-5 : Now enjoy :)
 
-Assalamualaikum................................>>>
+
+
+Assalamualaikum...
+
+Allah Hafiz.
