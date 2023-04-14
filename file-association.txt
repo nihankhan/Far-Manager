@@ -1,0 +1,9 @@
+for *.c++ 
+"C:\TDM-GCC-64\bin\c++.exe" !.cpp -o !.exe
+
+for *.exe
+paste it in box number five. and unmark box number three
+"C:\TDM-GCC-64\bin\gdb.exe" !.exe
+
+for *.c
+blank everything
