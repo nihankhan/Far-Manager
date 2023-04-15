@@ -1,0 +1,11 @@
+At firt you create a macro file in the dir of ~/home/nihan/PlayOnLinux's virtual drives/Far_Manager/drive_c/Program Files (x86)/Far Manager/Plugins/TrueTemplate/templates/file/file[this is macro file]
+code like => freopen("input.txt", "r", stdin);
+
+second.
+
+you go to the file of true-source-base.xml and you find Macros tab. in the first line of macro tab you add a macro name in the first line last like:
+  <Expand Name="&amp;Macros "                                                               To="\~Date and time=Date and time\~Date=Date\~Time=Time\~file=file"/>
+  here i use \~file=file this is my macro name.
+and add this line as the last line of Macro Tab.
+
+<Expand Name="file"                     At="&OutWord;" SubMenu="1" Pattern="file|file"      To="\i'$\templates\file\file'"/>
