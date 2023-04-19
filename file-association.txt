@@ -1,5 +1,5 @@
 for *.c++ 
-"C:\TDM-GCC-64\bin\c++.exe" !.cpp -o !.exe
+"C:\TDM-GCC-64\bin\c++.exe" !.cpp -o !.exe -O2 -Wall -Wl,--stack=268435456 -wextra -std=c++17 -pedantic -Wshadow
 
 for *.exe
 paste it in box number five. and unmark box number three
