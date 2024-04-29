@@ -1,0 +1,41 @@
+To list all directories under "gocode" excluding ".git" directories, and also show the files within each directory, you can use the `tree` command with the `-I` option to exclude ".git" directories. Here's how you can do it:
+
+```bash
+tree gocode -I '.git' --matchdirs -aF
+```
+
+This will display the directory tree starting from "gocode", showing all directories and files within each directory, while excluding ".git" directories.
+
+Explanation of options used:
+- `-I`: Ignore files or directories matching the specified pattern.
+- `'.git'`: Pattern to exclude directories named ".git".
+- `--matchdirs`: Include directories matching the pattern specified with `-I`.
+- `-a`: All files are printed.
+- `-F`: Append a '/' for directories, a '*' for executable files, a '|' for FIFOs, and a '@' for symbolic links.
+
+
+tarsuniverse/
+├── client/
+│   ├── client.go
+│   └── load.go
+├── cmd/
+│   └── tarsuniverse/
+│       └── main.go
+├── config/
+│   └── config.go
+├── Dockerfile
+├── .github/
+│   └── workflows/
+│       └── action.yml
+├── go.mod
+├── go.sum
+├── internal/
+│   ├── api/
+│   │   ├── createpost/
+│   │   │   ├── create_backup.txt
+│   │   │   ├── create_cpy.txt
+│   │   │   ├── createeee.txt
+│   │   │   ├── create.go
+│   │   │   ├── hasdgbfyuagwefe.txt
+│   │   │   └── upload_test.go
+│   │   ├── feeds/
